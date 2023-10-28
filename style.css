@@ -86,6 +86,7 @@ nav{
     border: 2px solid #949494;
     margin-right:auto;
     max-width: max-content;
+    margin-bottom: 6px;
 }
 .btn:hover{
     background-color: #1e40af;
