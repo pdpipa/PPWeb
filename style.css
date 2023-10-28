@@ -75,11 +75,24 @@ nav{
     border: 2px solid #fff;
     margin-top: 5px;
 }
-
+.btn2{
+    padding: 1rem 2rem;
+    font-size: 10px;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid #949494;
+    margin-right:auto;
+    max-width: max-content;
+}
 .btn:hover{
     background-color: #1e40af;
 }
-
+.btn2:hover{
+    background-color: #1e40af;
+}
 .container{
     max-width: 1200px;
     margin: auto;
@@ -563,11 +576,11 @@ footer .column > a:hover{
   #light {
     display: none;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    max-width: 600px;
+    top: 70%;
+    left: 90%;
+    max-width: 100%;
     max-height: 360px;
-    margin-left: -300px;
+    margin-left: -400px;
     margin-top: -180px;
     border: 2px solid #FFF;
     background: #FFF;
@@ -583,7 +596,7 @@ footer .column > a:hover{
     border-radius: 3px;
     background: #222222;
     font-size: 31px;
-    font-weight: bold;
+    font-weight: 1000;
     display: inline-block;
     line-height: 0px;
     padding: 11px 3px;
@@ -595,9 +608,64 @@ footer .column > a:hover{
   }
   
   .boxclose:before {
-    content: "×";
+    content: "X";
   }
   
   #fade:hover ~ #boxclose {
+    display:none;
+  }
+  #fade2 {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+  }
+  
+  #light2 {
+    display: none;
+    position: absolute;
+    top: 70%;
+    left: 90%;
+    max-width: 100%;
+    max-height: 360px;
+    margin-left: -400px;
+    margin-top: -180px;
+    border: 2px solid #FFF;
+    background: #FFF;
+    z-index: 1002;
+    overflow: visible;
+  }
+  
+  #boxclose2 {
+  
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #AEAEAE;
+    border-radius: 3px;
+    background: #222222;
+    font-size: 31px;
+    font-weight: 1000;
+    display: inline-block;
+    line-height: 0px;
+    padding: 11px 3px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 1002;
+    opacity: 0.9;
+  }
+  
+  .boxclose2:before {
+    content: "X";
+  }
+  
+  #fade2:hover ~ #boxclose2 {
     display:none;
   }

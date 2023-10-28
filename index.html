@@ -35,16 +35,41 @@
             <h1>PP WBSITE</h1>
             <!-- <H1>Hi, I'm <span>Reza</span>, Web Developer</H1> -->
             <p>
-               IPA MOD, Hack Liên Quân CHỨNG CHỈ IOS FREE
+               IPA Apps Mod, Hack Liên Quân, File chứng chỉ Esign,...
             </p>
-            <button id="link3" class="btn">KHÁM PHÁ NGAY</button>
+            <button id="link3" class="btn">Bấm vào đây</button>
+            
             <!-- <button class="btn">Get Started</button> -->
         </div>
         <div class="image">
             <img src="images/header.png">
         </div>
     </header>
-
+    <section class="container">
+        <h2 class="header">HƯỚNG DẪN</h2>
+        <div class="content">
+            <h4 style="color:#fff;text-align: center;">VUI LÒNG XEM KĨ VIDEO ĐỂ TRÁNH BỊ LỖI</h4>
+            <div id="light2">
+                <a class="boxclose2" id="boxclose2" onclick="lightbox_close2();"></a>
+                <video id="VisaChipCardVideo2" style="width:100%;height: auto;" controls>
+                    <source src="images/signipa.mp4" type="video/mp4">
+                    <!--Browser does not support <video> tag -->
+                  </video>
+              </div>
+              
+              <div id="fade2" onClick="lightbox_close2();"></div>
+            <button onclick="lightbox_open2();" class="btn2">Cách cài App Online Trên web</button>
+            <div id="light">
+                <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+                <video id="VisaChipCardVideo" style="width:100%;height: auto;" controls>
+                    <source src="images/hd.MP4" type="video/mp4">
+                    <!--Browser does not support <video> tag -->
+                  </video>
+            </div>
+              <div id="fade" onClick="lightbox_close();"></div>
+            <button onclick="lightbox_open();"class="btn2">Cách cài App qua Esign</button>
+        </div>
+    </section>        
     <section class="container">
         <h2 class="header">KHO IPA APPS++</h2>
         <div class="features">
@@ -119,26 +144,11 @@
                 </p>
                 <button onclick="location.href='https://github.com/phatipashare/ipa/releases/download/ipa/esign_4.8.1.ipa' "class="btn">Tải ipa</button>
                 <!-- <a href="https://github.com/phatipashare/ipa/releases/download/ipa/esign_4.8.1.ipa"><i>Tải ipa </i><i class="ri-arrow-down-line"></i></a> -->
-                <div id="light">
-                    <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
-                    <video id="VisaChipCardVideo" width="600" height="300" controls>
-                        <source src="images/hd.MP4" type="video/mp4">
-                        <!--Browser does not support <video> tag -->
-                      </video>
-                  </div>
                   
-                  <div id="fade" onClick="lightbox_close();"></div>
-                  
-                  <div>
-                    
-                    <button onclick="lightbox_open();"class="btn">Cách dùng</button>
-                  </div>
-                  
-            </div>
-        </div>        
+            </div>     
     </section>
     <section class="container">
-        <h2 class="header">KHO IPA GAME MOD</h2>
+        <h2 class="header">HACK LIÊN QUÂN</h2>
         <div class="features">
             <div class="card2">
                 <span><img class="game" src="images/lienquan.png" alt=""></span>
@@ -149,7 +159,7 @@
                 </p>
                 <p>
                     <i class="ri-checkbox-circle-line"></i>
-                   Free nên ban đừng khóc
+                   Free nên tỉ lệ ban cao (tối đa 7 ngày)
                 </p>
                 <!-- <a href="https://web1s.io/r1S53gqRNt"><i>Tải ipa </i><i class="ri-arrow-down-line"></i></a> -->
                 <button onclick="location.href='https://web1s.io/r1S53gqRNt' "class="btn">Tải ipa</button>
@@ -181,19 +191,7 @@
 
 
             </div>
-            </section>
-
-
-        <section class="container">
-                <h2 class="header">HƯỚNG DẪN KÍ IPA VÀ CÀI ĐẶT</h2>
-                <p class="sub-header">
-                    VIDEO HƯỚNG DẪN KÍ IPA ONLINE
-                </p>
-                <br>
-                <div>
-                    <iframe width="100%" height="600"style="margin:auto; border:3px solid rgb(255, 255, 255);border-radius:12px ;" src="images/signipa.mp4" frameborder="0"></iframe>                  
-                </div>
-        </section>        
+            </section>      
     <section class="container">
         <h2 class="header"> WEB KÍ IPA ONLINE</h2>
         <p class="sub-header">
@@ -265,6 +263,7 @@
 
     <script src="script.js"></script>
     <script src="video.js"></script>
+    <script src="video2.js"></script>
 </body>
 
 </html>
