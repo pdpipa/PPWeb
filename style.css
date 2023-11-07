@@ -77,10 +77,10 @@ nav{
 }
 .btn2{
     padding: 1rem 2rem;
-    font-size: 10px;
+    font-size: 15px;
     color: #fff;
     background-color: #000000;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
     border: 2px solid #949494;
